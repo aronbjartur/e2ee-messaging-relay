@@ -1,0 +1,28 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local secrets and private endpoint state
+keys/
+*_password.txt
+*.pem
+
+# Local relay database
+relay.db
+relay.db-*
+*.sqlite
+*.sqlite3
+
+# Local environment config
+.env
+.env.*

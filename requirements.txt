@@ -1,0 +1,8 @@
+argon2-cffi
+cryptography
+customtkinter
+fastapi
+gunicorn
+psycopg[binary]
+requests
+uvicorn
