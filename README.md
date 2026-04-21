@@ -1,6 +1,7 @@
 # E2EE Messaging Relay Prototype
 
-[![Render API](https://img.shields.io/website?url=https%3A%2F%2Fe2ee-chat-jfml.onrender.com%2Fhealth&up_message=online&down_message=offline&label=render%20api)](https://e2ee-chat-jfml.onrender.com/health)
+**Live Render API:** https://e2ee-chat-jfml.onrender.com/health
+
 ![Python](https://img.shields.io/badge/python-3.11%2B-blue)
 ![FastAPI](https://img.shields.io/badge/backend-FastAPI-009688)
 ![PostgreSQL](https://img.shields.io/badge/database-PostgreSQL-336791)
