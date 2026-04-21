@@ -11,6 +11,7 @@ whistleblower-to-journalist scenario. The important idea is that the server is
 only a relay: it stores public keys, authentication data, metadata, and encrypted
 message blobs, but it should never receive plaintext message content.
 
+
 The project has two clients:
 
 - `client.py` is the terminal client.
@@ -424,31 +425,6 @@ This is the main automated proof that AES-GCM integrity and AAD binding work.
 - Refresh Bob and show successful plaintext decryption.
 - Run `evil_test.py` to show tampering is rejected.
 - Explain that Render is an untrusted relay, not the encryption endpoint.
-
-## Screenshots
-
-Screenshots are not committed yet. Good screenshots to add:
-
-- GUI register/login screen.
-- GUI after login showing `MY FINGERPRINT`.
-- Fingerprint verification dialog.
-- Alice sending a message.
-- Bob receiving a decrypted message.
-- Render `/health` page or README badge.
-- PostgreSQL row showing ciphertext in `messages.content`.
-
-Suggested folder:
-
-```text
-docs/screenshots/
-```
-
-Then add Markdown image links like:
-
-```md
-![GUI login screen](docs/screenshots/gui-login.png)
-![Fingerprint verification](docs/screenshots/fingerprint-dialog.png)
-```
 
 ## Honest Security Notes
 
